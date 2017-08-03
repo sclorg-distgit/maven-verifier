@@ -3,7 +3,7 @@
 
 Name:           %{?scl_prefix}maven-verifier
 Version:        1.6
-Release:        4.1%{?dist}
+Release:        4.2%{?dist}
 Summary:        Maven verifier
 License:        ASL 2.0
 URL:            http://maven.apache.org/shared/maven-verifier
@@ -42,6 +42,9 @@ API documentation for %{pkg_name}.
 %license LICENSE NOTICE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.6-4.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.6-4.1
 - Automated package import and SCL-ization
 
